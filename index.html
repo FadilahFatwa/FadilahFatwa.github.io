@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Futuh & Fadilah</title>
+
+    <!-- mengarah ke bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- font from google -->
+    <link rel="stylesheet" href="fonts-google.css" />
+
+    <!-- simplycountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="icons/bootstrap-icons.css" />
+
+    <!-- CSS manual -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <>
+    <!-- hero -->
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada Bapak/Ibu Saudara/i</h4>
+        <h1>Futuh & Fadilah</h1>
+        <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <!-- navbar offcanvas -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Wedding</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wedding</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 8 juni 2024 di Garut, Jawa Barat.</h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir dalam acara pernikahan kami.</p>
+          </div>
+        </div>
+
+        <!-- couple -->
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Futuh Iqram Multazam</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ad, laboriosam autem omnis quidem velit.</p>
+                <p>
+                  Putra dari Bpk. Tutu Gondewa <br />
+                  dan <br />
+                  Ibu Pipit pitriani
+                </p>
+              </div>
+              <div class="col-4">
+                <img src="img/futuh-sm.jpg" alt="Futuh Iqram Multazam" class="img-responsive rounded-circle" />
+              </div>
+            </div>
+          </div>
+
+          <!-- gambar love di tengah -->
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <!-- section ayang -->
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/ayang-sm.jpg" alt="Fadilah fatwa" class="img-responsive rounded-circle" />
+              </div>
+              <div class="col-8">
+                <h3>Fadilah Fatwa</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ad, laboriosam autem omnis quidem velit.</p>
+                <p>
+                  Putri dari Bpk. Ade MS <br />
+                  dan <br />
+                  Ibu Empon Sumiati
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: KP.Sirnarasa RT 02 RW 06 <br />
+              Desa Cibiuk Kaler, Kecamatan Cibiuk, Kabupaten Garut.
+            </p>
+            <a href="#link map" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi anda salah jadwal atau salah tempat.</p>
+          </div>
+        </div>
+
+        <!-- tabel jadwal -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <!-- card -->
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row jusify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 8 Juni 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Saat acara akad diharapkan untuk kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi.</div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <!-- card -->
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row jusify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Sabtu, 8 Juni 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Saat acara akad diharapkan untuk kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- story -->
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Cinta Kami Bersemi</span>
+            <h2>Cerita Kami</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nam voluptatem minima quia quo necessitatibus?</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/sman-10-garut.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                  <h3>Pertama Bertemu</h3>
+                  <span>Sekitar pada tahun 2018</span>
+                </div>
+                <div class="timeline-body">
+                  <p>Pas awal masuk SMA pada saat kegiatan MPLS dan Kegiatan pramuka, lalu di lanjut lagi di eskul basket</p>
+                </div>
+              </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script from bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- script simply count down -->
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 6, // required
+        day: 8, // required
+        hours: 8, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <!-- ga tau buat apa dah -->
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+  </body>
+</html>
